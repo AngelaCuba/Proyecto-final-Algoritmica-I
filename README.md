@@ -2,7 +2,7 @@
 ## Integrantes del grupo:
 - Angela Encarnación Cuba Chuquimia
 - Alexia Marín 
-- Mish
+- Mishel 
 
 ## Requisitos de Software:
  
@@ -10,5 +10,6 @@
  - Lenguaje de programación C++11
  - Visual Studio Code versión 1.56
  - Compilador de C++: g++ 8.3.0
-##  Explicacion del Algoritmo Usado:
+##  Explicacion del Algoritmo Moneda:
+ 
 ##  Explicacion del Proyecto
