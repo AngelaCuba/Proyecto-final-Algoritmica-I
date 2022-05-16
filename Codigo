@@ -23,7 +23,7 @@ void o1() {
 }
 
 void o2() {
-    cout<<"Billete de 100"<<endl;
+    cout<<" Billete de 100"<<endl;
 }
 void o3() {
     cout<<"Billete de 50"<<endl;
@@ -83,7 +83,7 @@ for(i=0;i<n;i++)
  }
  for(i=0;i<n;i++)
  {
-  cout<<"Dinero "<<money[i]<<" fueron  "<<veces[i]<<" bs "<<endl;
+  cout<<"Tienes bs. "<<money[i]<<" te damos  "<<veces[i]<<" bs "<<endl;
  }
 
 }
