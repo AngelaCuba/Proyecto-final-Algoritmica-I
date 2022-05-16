@@ -87,3 +87,43 @@ for(i=0;i<n;i++)
  }
 
 }
+
+#include <iostream>
+using namespace std;
+#include <bits/stdc++.h>
+#include<stdio.h>
+#define input freopen("in.txt","r",stdin)
+#define output freopen("out.txt","w",stdout)
+
+
+
+int main() {
+	int money[] = {50, 20, 10, 5, 2, 1};
+ int veces[] = { 0, 0, 0, 0, 0, 0};
+ int n = 6;
+ int efectivo,i;
+  int cantidad =0;
+ cout<<"Efectivo: ";
+ cin>>efectivo;
+ 
+for(i=0;i<n;i++)
+ {
+  veces[i] = efectivo/money[i];
+  efectivo = efectivo%money[i];
+ }
+ for(i=0;i<n;i++)
+ {
+  cout<<" tienes "<<veces[i]<<" billete o moneda  "<<money[i]<< "bs"<<endl;
+  
+  if (veces[i]>=1){
+      
+      cantidad ++;
+      
+  }
+  
+       
+ }
+   cout<<" tienes "<<cantidad<<" billetes/monedas "<<endl;
+
+}
+
